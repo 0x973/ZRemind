@@ -1,0 +1,6 @@
+framework module Pods_ZRemind {
+  umbrella header "Pods-ZRemind-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44FAB5ABAD0F6D5180D19B1B /* Pods_ZRemind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6889854B2774E07980584458 /* Pods_ZRemind.framework */; };
+		C16D60401FF086CF000AB1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */; };
+		C16D60421FF086CF000AB1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D60411FF086CF000AB1B8 /* Assets.xcassets */; };
+		C16D60451FF086CF000AB1B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16D60431FF086CF000AB1B8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRemind.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind.release.xcconfig"; sourceTree = "<group>"; };
+		6889854B2774E07980584458 /* Pods_ZRemind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRemind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRemind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind.debug.xcconfig"; sourceTree = "<group>"; };
+		C16D603C1FF086CF000AB1B8 /* ZRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16D60411FF086CF000AB1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16D60441FF086CF000AB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C16D60461FF086CF000AB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16D60471FF086CF000AB1B8 /* ZRemind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZRemind.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16D60391FF086CF000AB1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FAB5ABAD0F6D5180D19B1B /* Pods_ZRemind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25317CD536BF6D5C92CFF950 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */,
+				3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA52DF17A748589E604725EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6889854B2774E07980584458 /* Pods_ZRemind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C16D60331FF086CF000AB1B8 = {
+			isa = PBXGroup;
+			children = (
+				C16D603E1FF086CF000AB1B8 /* ZRemind */,
+				C16D603D1FF086CF000AB1B8 /* Products */,
+				25317CD536BF6D5C92CFF950 /* Pods */,
+				AA52DF17A748589E604725EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C16D603D1FF086CF000AB1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16D603C1FF086CF000AB1B8 /* ZRemind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16D603E1FF086CF000AB1B8 /* ZRemind */ = {
+			isa = PBXGroup;
+			children = (
+				C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */,
+				C16D60411FF086CF000AB1B8 /* Assets.xcassets */,
+				C16D60431FF086CF000AB1B8 /* MainMenu.xib */,
+				C16D60461FF086CF000AB1B8 /* Info.plist */,
+				C16D60471FF086CF000AB1B8 /* ZRemind.entitlements */,
+			);
+			path = ZRemind;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16D603B1FF086CF000AB1B8 /* ZRemind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16D604A1FF086CF000AB1B8 /* Build configuration list for PBXNativeTarget "ZRemind" */;
+			buildPhases = (
+				DD49291A2AFB5911536894DF /* [CP] Check Pods Manifest.lock */,
+				C16D60381FF086CF000AB1B8 /* Sources */,
+				C16D60391FF086CF000AB1B8 /* Frameworks */,
+				C16D603A1FF086CF000AB1B8 /* Resources */,
+				2DE00CC40BCDA2B9B869DF12 /* [CP] Embed Pods Frameworks */,
+				CE88EF4CF1E45570116031F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRemind;
+			productName = ZRemind;
+			productReference = C16D603C1FF086CF000AB1B8 /* ZRemind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16D60341FF086CF000AB1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZHENGSHOUDONG;
+				TargetAttributes = {
+					C16D603B1FF086CF000AB1B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C16D60371FF086CF000AB1B8 /* Build configuration list for PBXProject "ZRemind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C16D60331FF086CF000AB1B8;
+			productRefGroup = C16D603D1FF086CF000AB1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16D603B1FF086CF000AB1B8 /* ZRemind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16D603A1FF086CF000AB1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16D60421FF086CF000AB1B8 /* Assets.xcassets in Resources */,
+				C16D60451FF086CF000AB1B8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DE00CC40BCDA2B9B869DF12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE88EF4CF1E45570116031F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD49291A2AFB5911536894DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16D60381FF086CF000AB1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16D60401FF086CF000AB1B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C16D60431FF086CF000AB1B8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16D60441FF086CF000AB1B8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16D60481FF086CF000AB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C16D60491FF086CF000AB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C16D604B1FF086CF000AB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZRemind/ZRemind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRemind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhengshoudong.ZRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C16D604C1FF086CF000AB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZRemind/ZRemind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZRemind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhengshoudong.ZRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16D60371FF086CF000AB1B8 /* Build configuration list for PBXProject "ZRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16D60481FF086CF000AB1B8 /* Debug */,
+				C16D60491FF086CF000AB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16D604A1FF086CF000AB1B8 /* Build configuration list for PBXNativeTarget "ZRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16D604B1FF086CF000AB1B8 /* Debug */,
+				C16D604C1FF086CF000AB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C16D60341FF086CF000AB1B8 /* Project object */;
+}
