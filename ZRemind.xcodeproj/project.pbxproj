@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44FAB5ABAD0F6D5180D19B1B /* Pods_ZRemind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6889854B2774E07980584458 /* Pods_ZRemind.framework */; };
 		C16D60401FF086CF000AB1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */; };
 		C16D60421FF086CF000AB1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D60411FF086CF000AB1B8 /* Assets.xcassets */; };
 		C16D60451FF086CF000AB1B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16D60431FF086CF000AB1B8 /* MainMenu.xib */; };
+		C1C145B01FF0A388004CD31E /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C145AF1FF0A388004CD31E /* SwiftyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRemind.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind.release.xcconfig"; sourceTree = "<group>"; };
-		6889854B2774E07980584458 /* Pods_ZRemind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRemind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRemind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind.debug.xcconfig"; sourceTree = "<group>"; };
 		C16D603C1FF086CF000AB1B8 /* ZRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16D60411FF086CF000AB1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16D60441FF086CF000AB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C16D60461FF086CF000AB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16D60471FF086CF000AB1B8 /* ZRemind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZRemind.entitlements; sourceTree = "<group>"; };
+		C1C145AF1FF0A388004CD31E /* SwiftyTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,26 +28,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44FAB5ABAD0F6D5180D19B1B /* Pods_ZRemind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25317CD536BF6D5C92CFF950 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */,
-				3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		AA52DF17A748589E604725EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6889854B2774E07980584458 /* Pods_ZRemind.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -59,7 +46,6 @@
 			children = (
 				C16D603E1FF086CF000AB1B8 /* ZRemind */,
 				C16D603D1FF086CF000AB1B8 /* Products */,
-				25317CD536BF6D5C92CFF950 /* Pods */,
 				AA52DF17A748589E604725EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +61,7 @@
 		C16D603E1FF086CF000AB1B8 /* ZRemind */ = {
 			isa = PBXGroup;
 			children = (
+				C1C145AF1FF0A388004CD31E /* SwiftyTimer.swift */,
 				C16D603F1FF086CF000AB1B8 /* AppDelegate.swift */,
 				C16D60411FF086CF000AB1B8 /* Assets.xcassets */,
 				C16D60431FF086CF000AB1B8 /* MainMenu.xib */,
@@ -91,12 +78,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C16D604A1FF086CF000AB1B8 /* Build configuration list for PBXNativeTarget "ZRemind" */;
 			buildPhases = (
-				DD49291A2AFB5911536894DF /* [CP] Check Pods Manifest.lock */,
 				C16D60381FF086CF000AB1B8 /* Sources */,
 				C16D60391FF086CF000AB1B8 /* Frameworks */,
 				C16D603A1FF086CF000AB1B8 /* Resources */,
-				2DE00CC40BCDA2B9B869DF12 /* [CP] Embed Pods Frameworks */,
-				CE88EF4CF1E45570116031F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,60 +137,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2DE00CC40BCDA2B9B869DF12 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE88EF4CF1E45570116031F0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRemind/Pods-ZRemind-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD49291A2AFB5911536894DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		C16D60381FF086CF000AB1B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C16D60401FF086CF000AB1B8 /* AppDelegate.swift in Sources */,
+				C1C145B01FF0A388004CD31E /* SwiftyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +269,6 @@
 		};
 		C16D604B1FF086CF000AB1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8E57513DD009CFD7C9A612D /* Pods-ZRemind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZRemind/ZRemind.entitlements;
@@ -348,7 +284,6 @@
 		};
 		C16D604C1FF086CF000AB1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A4F7C3D22F58300448DC6AA /* Pods-ZRemind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZRemind/ZRemind.entitlements;
